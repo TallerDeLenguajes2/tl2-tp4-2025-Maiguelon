@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "j8ZCVNetfuI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Cc-nta Software\\Desktop\\facultad\\Taller2_nuevo\\TP-4\\tl2-tp4-2025-Maiguelon\\tl2-tp4-2025-Maiguelon.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Cc-nta Software\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Cc-nta Software\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Cc-nta Software\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\Cc-nta Software\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\Cc-nta Software\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\Cc-nta Software\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
