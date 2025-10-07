@@ -16,6 +16,9 @@ namespace miCadeteria
         private estado_pedido estado;
         private Cadete cadete;
 
+        public Pedidos()
+        {
+        }
         public Pedidos(int number, string obs, estado_pedido state, string platillo, Cliente cliente)
         {
             nro = number;

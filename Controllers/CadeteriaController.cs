@@ -35,9 +35,48 @@ public class CadeteriaController : ControllerBase
         cadeteria.ReasignarPedido(cadeteria.Cadetes[1], cadeteria.ListadoPedidos1[1]);
     }
 
+    // Gets
     [HttpGet("GetPedidos")]
     public ActionResult<List<Pedidos>> GetPedidos()
     {
         return Ok(cadeteria.ListadoPedidos1);
-    } 
+    }
+
+    [HttpGet("GetCadetes")]
+    public ActionResult<List<Cadete>> GetCadetes()
+    {
+        return Ok(cadeteria.Cadetes);
+    }
+
+    // Post
+    [HttpPost("AgregarPedido")]
+    public ActionResult AgregarPedido([FromBody] Pedidos pedido)
+    {
+        cadeteria.ListadoPedidos1.Add(pedido);
+        return Created($"/Cadeteria/GetPedidos/{pedido.Nro}", pedido);
+    }
+
+    // Puts
+    [HttpPut("AsignarPedido/{idPedido}/{idCadete}")]
+    public ActionResult AsignarPedido(int idPedido, int idCadete)
+    {
+        cadeteria.AsignarCadeteAPedido(idCadete, idPedido);
+        return Ok($"Pedido {idPedido} asignado al cadete {idCadete}");
+    }
+
+    [HttpPut("CambiarEstadoPedido/{idPedido}/{NuevoEstado}")]
+    public ActionResult CambiarEstadoPedido(int idPedido, int NuevoEstado)
+    {
+        Pedidos pedido = cadeteria.DevolverPedido(idPedido);
+        pedido.Estado = (estado_pedido)NuevoEstado;
+
+        return Ok($"Estado del Pedido {pedido.Nro} cambiado a {pedido.Estado}");
+    }
+
+    [HttpPut("CambiarCadetePedido/{idPedido}/{idNuevoCadete}")]
+    public ActionResult CambiarCadetePedido(int idPedido, int idNuevoCadete)
+    {
+        cadeteria.AsignarCadeteAPedido(idNuevoCadete, idPedido);
+        return Ok($"Pedido {idPedido} asignado al nuevo cadete {idNuevoCadete}");
+    }
 }
