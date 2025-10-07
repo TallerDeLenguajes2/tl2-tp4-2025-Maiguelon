@@ -30,3 +30,4 @@ C:\Users\Cc-nta Software\Desktop\facultad\Taller2_nuevo\TP-4\tl2-tp4-2025-Maigue
 C:\Users\Cc-nta Software\Desktop\facultad\Taller2_nuevo\TP-4\tl2-tp4-2025-Maiguelon\obj\Debug\net8.0\tl2-tp4-2025-Maiguelon.pdb
 C:\Users\Cc-nta Software\Desktop\facultad\Taller2_nuevo\TP-4\tl2-tp4-2025-Maiguelon\obj\Debug\net8.0\tl2-tp4-2025-Maiguelon.genruntimeconfig.cache
 C:\Users\Cc-nta Software\Desktop\facultad\Taller2_nuevo\TP-4\tl2-tp4-2025-Maiguelon\obj\Debug\net8.0\ref\tl2-tp4-2025-Maiguelon.dll
+C:\Users\Cc-nta Software\Desktop\facultad\Taller2_nuevo\TP-4\tl2-tp4-2025-Maiguelon\obj\Debug\net8.0\tl2-tp4-2025-Maiguelon.sourcelink.json
